@@ -1,0 +1,41 @@
+body{
+	/* 전체 영역 설정 */
+	background-color: #f4f8f6;
+	font-family: sans-serif;
+}
+
+h1 {/*
+	margin:10px 0;
+	font-size: 20px;*/
+	color: #267557;
+	
+}
+/*
+
+*/
+
+.notice {
+	padding:24px;
+	background:white;
+	border:1px solid #e5e5e5;
+	border-round:18px;
+	box-shadow:0 8px 24px rgba(0,0,0,0.06);
+}
+li:hover {
+	background: #dbeafe;
+	
+	
+}
+
+/* html3.html css*/
+
+day {
+background-color:green;
+color:pink;
+}
+emp {
+	color:red;
+	font-size:30px;
+	
+	
+}

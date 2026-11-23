@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>웹페이지</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- <script src="" defer></script> 
+<main class="home-wrap">
+<header class="hero">
+<a href="./web_page/day.html">
+<style>
+h1 {
+	margin:10px 0;
+	font-size: 20px;
+	color: blue;
+	
+}
+</style>
+-->
+<link rel="stylesheet" href="./css/day.css">
+<script src="js/day.js"></script>
+</head>
+<body>
+
+<h1>웹페이지</h1>
+<p>시작</p>
+<p><b>오늘</b></p>
+<section>
+<h2>할 일</h2>
+<ul>
+<li>1</li>
+<li>2</li>
+</ul>
+<!--<input name="전송" type="button" /> -->
+
+<button>
+next</button>
+<label for="name">
+제목</label>
+<input 
+id="name" 
+type="text" 
+placeholder="내용">
+<button type="search">
+search</button>
+</section>
+
+<!-- <section> => <div> <p> tag error -->
+<section class="notice">
+<h2>오늘</h2>
+<p>목표</p>
+</section>
+<!--
+<script type="text/javascript">
+function sayHello(msg) {
+	alert(msg);
+}
+sayHello("error");
+</script>
+-->
+
+<div class="notice">
+<h2>오늘</h2>
+<p>할 일</p>
+<button id="page1"><-</button>
+<button id="page2">page</button>
+<button id="page3">-></button>
+</div>
+
+<div class="notice">
+<h2>오늘</h2>
+<p>list</p>
+<input type="text" id="taskInput" placeholder="내용">
+<button id="list">search</button>
+
+</div>
+<ul id="tasklist">
+
+</ul>
+<h1>
+🎁
+ 나의 행운 상자</h1>
+<div id="result">행운을 뽑아 보세요!</div>
+<button onclick="drawFortune()">행운 뽑기</button>
+<button onclick="saveFortune()">행운 저장</button>
+<button onclick="loadFortune()">저장된 행운 불러오기</button>
+<button onclick="deleteFortune()">저장 삭제</button>
+
+
+</body>
+</html>

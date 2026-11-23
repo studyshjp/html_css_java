@@ -1,0 +1,151 @@
+@charset "UTF-8";
+/* 전체 페이지 테마 적용 */
+:root {
+	--green: #287a5b;
+	--green-dark: #1f6047;
+	--green-light: #e8f4ee;
+	--ink: #24332d;
+	--muted: #78857f;
+	--line: #e5ece8;
+	--surface: #ffffff;
+	--background: #f4f8f5;	/* #RGBA(16,16,16,1) #c45454; */
+	--danger: #e8f4ee;
+	font-family: 
+	"pretendard", 
+	"Noto Sans KR",
+	"Malgun Gothic",
+	"sans-serif";
+	
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	color: var(--ink);
+	background: 
+	radial-gradient(
+	circle at 90% 0%, 
+	#e7f4eb 0,
+	transparent 28rem
+	),
+	var(--background);
+		
+}
+/*justify content : space-between;
+	gap: 24px;
+	padding: 48px 0 30px;
+*/
+
+.place {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 24px;
+	padding: 48px 0 30px;
+
+}
+
+
+/*
+.page {
+    width: auto;
+    flex: 1;
+    margin: 0;
+}
+*/
+
+.page {
+	width: min(1120px, calc(100% - 40px));
+	margin: 0 auto;
+	
+	
+}
+
+/*좌측상단 header*/
+
+.title {
+	margin: 0 0 9px;
+	color: var(--green);
+	font-size: 11px;
+	font-weight: 800;
+	letter-spacing:1.7px;
+	
+	
+}
+
+
+
+.subtitle{
+	margin-bottom: 0;
+	color: var(--muted);
+	
+	
+}
+
+/*우측상단 header*/
+
+.todaytable {
+	min-width: 180px;
+	padding: 16px 20px;
+	border: 1px solid var(--line);
+	border-radius: 16px;
+	background: rgba(255,255,255,.8);
+	text-align: right;
+	
+}
+
+
+.today {
+	display: block; 	/* inline+<br> */
+	margin-bottom: 6px;
+	color: var(--muted);
+	font-size: 10px;
+	font-weight: 900;
+	letter-spacing: 1.5px;
+	
+}
+
+
+#todaydate {
+	font-size: 16px;
+	font-weight: bolder;
+	
+}
+
+
+footer {
+	padding: 28px 0 35px;
+	color: #9aa69f;
+	text-align: center;
+	font-size: 12px;
+	
+	
+}
+
+.focus {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 20px;
+	padding: 28px 32px;
+	border-radius: 22px;
+	color: white;
+	background: linear-gradient(115deg, #287a5b, #459b75);
+	box-shadow: 0 14px 35px rgba(40,122,91,.15)
+	
+}
+.focus .new {
+	color:#c8ead8;
+}
+
+.focus h2 {
+	margin-bottom: 8px;
+	font-size: clamp(20px, 3vw, 26px);
+	letter-spacing: -.8px;
+	
+	
+	
+}
