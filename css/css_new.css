@@ -149,3 +149,21 @@ footer {
 	
 	
 }
+.focus p{
+margin-bottom: 0;
+font-size:14px;
+color: #e1f2e8;
+}
+
+.focused {
+	display: grid;
+	flex: 0 0 62px;
+	width: 62px;
+	height: 62px;
+	place-items: center;
+	border: 1px solid rgba(255,255,255,.45);
+	border-radius: 50%;
+	color: white;
+	font-size: 30px;
+	
+}
