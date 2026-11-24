@@ -115,6 +115,82 @@ body {
 	
 }
 
+/*오늘의 현황*/
+.grid {
+	display:grid;
+	grid-template-columns:1fr 1fr 2fr;
+	gap: 16px;
+	margin: 18px 0;
+	
+	}
+
+.gridtable {
+	min-height: 112px;
+	padding: 20px 22px;
+	
+	}
+
+.gridtitle .grid {
+	border: 1px solid var(--line);
+	border-radius: 18px;
+	background: var(--surface);
+	box-shadow: 0 7px 24px rgba(33,67,49,.04);
+	
+	}
+.gridtitle {
+	display: block; /*inline block = <br>*/
+	margin-bottom: 9px;
+	color:var(--muted);
+	font-size: 13px;
+	
+}
+
+/*
+#total {
+	font-size:30px;
+	}
+	
+*/
+
+.unit {
+	margin-left: 5px;
+	color: var(--muted);
+	font-size: 13px;
+	
+	}
+
+/**/
+.progress {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	
+
+}
+
+.progress strong{
+	color: var(--green);
+	font-size: 22px;
+
+}
+
+.progresstitle {
+	height: 100px;
+	overflow: hidden;
+	border-radius: 99px;
+	background:edf2ef;
+
+}
+
+.prfine {
+	width: 0;
+	height: 100%;
+	border-radius: inherit;
+	background: var(--green);
+	transition: width .25s ease;
+	
+}
+
 
 footer {
 	padding: 28px 0 35px;
